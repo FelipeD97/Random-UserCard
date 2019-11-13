@@ -7,6 +7,10 @@ const List = Styled.ul`
     list-style-type: none;
     margin: 1rem auto;
     padding: 16px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 `;
 
 class CardList extends Component {
